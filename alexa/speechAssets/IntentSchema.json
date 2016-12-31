@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "SetDaisyStatusIntent",
+      "slots": [
+        {
+          "name": "Status",
+          "type": "STATUSES"
+        }
+      ]
+    },
+    {
+      "intent": "GetDaisyStatusIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

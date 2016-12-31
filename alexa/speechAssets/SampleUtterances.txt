@@ -1,0 +1,7 @@
+SetDaisyStatusIntent the dishes are {Status}
+SetDaisyStatusIntent to set the dishes to {Status}
+
+GetDaisyStatusIntent what is the status of the dishes
+GetDaisyStatusIntent to tell us the status of the dishes
+GetDaisyStatusIntent the status of the dishes
+GetDaisyStatusIntent about the dishes

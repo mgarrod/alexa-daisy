@@ -27,7 +27,7 @@ var registerIntentHandlers = function (intentHandlers, skillContext) {
             currentStatus.data.status = statusValue; //currentStatus.data.status == "clean" ? "dirty" : "clean";
          
             currentStatus.save(function () {
-                response.tell('Daisy has set the dishes to ' + currentStatus.data.status);
+                response.tell('Mrs Patmore has set the dishes to ' + currentStatus.data.status);
             });
         });
     }
@@ -40,7 +40,7 @@ var registerIntentHandlers = function (intentHandlers, skillContext) {
 
             var status = currentStatus.data.status !== undefined ? currentStatus.data.status : "dirty";
 
-            var aResponse = 'Daisy told me the dishes are ' + currentStatus.data.status + ".";
+            var aResponse = 'Mrs Patmore told me the dishes are ' + currentStatus.data.status + ".";
             // if (status == "clean") {
             //     aResponse += ' Matthew will not be able to empty the dish washer, but he wanted me to tell Kara that he loves her.';
             // }
